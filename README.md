@@ -1,14 +1,8 @@
-B4U reader for Python
+Anki B4U importer Add-on
 =============
 
-This library parses .b4u files, which are the native format of [Before You Know It](http://www.byki.com/), a great flashcard application.
+Importing .b4u files, which are the native format of [Before You Know It](http://www.byki.com/) application, to [Anki Desktop] (https://apps.ankiweb.net/).
 
-Many B4U files can be downloaded from http://www.byki.com/listcentral.html.
+After installing the add-on and restarting Anki in File->Import select Byki files and match the fields.
 
-Usage
-------------
-    import read
-    d = read.Deck('verbos.b4u')
-    d.html('output')
-
-will read the file `verbos.b4u` and create a HTML representation, with separate .OGG and .JPEG files as needed, in the folder `output`
+B4U files can be downloaded from http://www.byki.com/listcentral.html.
